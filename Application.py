@@ -18,8 +18,8 @@ if len(sys.argv) == 2:
     game = Storage.load(str(sys.argv[1]))
     game, key = RunningGame.init(window, game)
 else:
-    key = Constants.MENU
     game = None
+    key = Constants.MENU
 
 while True:
     if key == Constants.MENU:

@@ -1,5 +1,3 @@
-from service import Sound
-
 import random
 import RPi.GPIO as GPIO
 

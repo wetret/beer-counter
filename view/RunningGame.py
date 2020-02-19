@@ -38,11 +38,19 @@ def init(window, game):
     isDecrease = False
 
     while True:
-        # this is used for testing
+        # Uncomment the following lines for setting
+        # up a new game on your local machine.
+        # Don't use this input for a running game on a
+        # RaspberryPi.
+
         # key = window.getch()
         # if key != Constants.QUIT_VIEW:
         #     key = Input.getInput(len(participants))
 
+        # Comment the following two lines for setting
+        # up a new game on your local machine.
+        # Use this input for a running game on a
+        # RaspberryPi.
         pressedButtons = Input.getInput()
         key = pressedButtons[0]
 

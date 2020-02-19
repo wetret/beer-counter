@@ -1,6 +1,7 @@
-import curses
 from model.Person import Person
 from model.Game import Game
+
+import curses
 
 
 def init(window):
